@@ -1,0 +1,79 @@
+   @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+body {
+    background-color: #343A40;
+    margin: 0;
+    padding: 0;
+}
+#introRent {
+    font-family: 'Quintessential', cursive;
+    height: 10em;
+}
+#introRent img {
+    opacity: 0.5;
+}
+#introRent h1 {
+    font-size: 2em;
+    line-height: 150%;
+    color: #959595;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+#introRent h1 strong {
+    font-size: 1.1em;
+    color: #e2e2e2;
+    font-weight: normal;
+}
+#videoBG {
+    z-index: -1;
+}
+#torfbaeir {
+    font-family: 'Quintessential', cursive;
+}
+#torfbaeir h2 {
+    font-size: 5em;
+    color:#e2e2e2;
+    margin-bottom: 0.5em;
+}
+#torfbaeir hr {
+    
+    background: #959595;
+    width: 20em;
+}
+#torfbaeir p {
+    font-size: 1.3em;
+    color:#e2e2e2;
+    margin-bottom: 2em;
+}
+.seeMore {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 10em;
+    padding: 1em;
+    background-color: #1f2224;
+    color: #a4a9ac;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: rgba(59, 59, 59, 0.17) 0px -23px 25px 0px inset, rgba(126, 126, 126, 0.15) 0px -36px 30px 0px inset, rgba(144, 144, 144, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    }
+  

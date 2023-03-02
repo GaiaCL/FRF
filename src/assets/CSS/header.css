@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+@media screen and (min-width:992px){
+    .nav-item {
+    line-height:80px;
+    }
+  }
+#headerNav {
+    font-family: 'Quintessential', cursive;
+    font-size: 1.4em;
+    color: rgb(196, 196, 196);
+}
+#headerNav a h1 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+#headerNav a h1 strong {
+  font-size: 0.7em;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+}
