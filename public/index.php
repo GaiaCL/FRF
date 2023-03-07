@@ -12,6 +12,10 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/locationsMain.php');
             locationsMain();
         }
+        else if ($page == "Torfbaeir"){
+            require('../src/controllers/torfbaeir.php');
+            torfbaeir();
+        }
         else if ($page == "Home"){
             require('../src/controllers/home.php');
             home();
