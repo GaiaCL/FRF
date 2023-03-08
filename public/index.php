@@ -16,6 +16,10 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/torfbaeir.php');
             torfbaeir();
         }
+        else if ($page == "Loges"){
+            require('../src/controllers/loges.php');
+            loges();
+        }
         else if ($page == "Home"){
             require('../src/controllers/home.php');
             home();

@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
-<div class="container-fluid  p-0">
+<div class="container-fluid" style="background-color:#1f2224;">
 
-  <footer class=" text-center text-lg-start text-white" style="background-color:#1f2224;">
+  <footer class=" text-center text-lg-start text-white" >
     <div class="container p-4">
 
       <div class="row my-4">

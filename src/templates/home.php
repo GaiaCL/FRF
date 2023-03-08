@@ -2,7 +2,7 @@
 <?php ob_start(); ?>
 
 <!-- Container Start -->
-<div class="container-fluid">
+<div class="container-fluid p-0 m-0">
 
     <!--1st Row start -->
     <div class="row" style="height:65em;background-image:url('../src/assets/Image/homeHeader.jpg');background-size:cover;">
@@ -10,8 +10,8 @@
         <div class="col-2 d-flex flex-column align-items-center justify-content-center" id="frontHead">
             <img src="../src/assets/Image/islandiccottage.png" width="250" style="margin-bottom:2em;">
             <p>- Chalais -<br>
-            - Maisons d'Hôtes -<br>
-            - Torfbær -<br></p>
+            - Loges de Verres -<br>
+            - Torfbæir -<br></p>
             <p>Situés à Reykjavick</p>
             <div class="socials">
                 <a href=""><i class="fa-brands fa-facebook fa-3x m-1"></i></a>
@@ -86,31 +86,33 @@
     <!-- 4th Row end -->
 
     <!-- 5th Row start -->
-    <div class="row d-flex flex-wrap mt-4">
+    <div class="container-fluid">
+    <div class="row d-flex flex-wrap  m-4">
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery1.webp" width="495" height="450">
-        </div>
-        <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery2.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery1.webp" class="d-block w-100">
         </div>
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery3.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery2.jpg" class="d-block w-100">
         </div>
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery4.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery3.jpg" class="d-block w-100">
+        </div>
+        <div class="col-3 galleryPic">
+            <img src="../src/assets/Image/gallery4.jpg" class="d-block w-100">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery5.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery5.jpg" class="d-block w-100">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery6.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery6.jpg" class="d-block w-100">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery7.webp" width="495" height="450">
+            <img src="../src/assets/Image/gallery7.webp" class="d-block w-100">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery8.jpg" width="495" height="450">
+            <img src="../src/assets/Image/gallery8.jpg" class="d-block w-100">
         </div>
+    </div>
     </div>
     <!-- 5th Row end -->
 

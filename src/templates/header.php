@@ -1,6 +1,6 @@
 <?php ob_start(); ?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-3 bg-dark" id="headerNav" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

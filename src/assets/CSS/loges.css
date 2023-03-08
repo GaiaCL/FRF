@@ -1,0 +1,56 @@
+body  {
+    padding: 0;
+    margin: 0;
+    background-color: #343A40;
+    overflow-x: hidden;
+}
+#titleLoges {
+    height:28em;
+    padding-top:9em;
+}
+#titleLoges img {
+    opacity: 0.5;
+    filter: drop-shadow(5px 5px 0px #000000);
+} 
+#textTorf h1 {
+    font-size:4em;
+    color:#dde2e5;
+    font-family: 'Quintessential', cursive;
+    font-weight: bold;
+    letter-spacing:0.15em;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+#textTorf p {
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+#carouselTorf {
+    z-index: -1;
+}
+#carouselTorf img {
+    border-radius: 29% 29% 29% 29% / 0% 29% 29% 0%  ;
+    border: 10px double #1f2224
+}
+#dispoLoges {
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quintessential', cursive;
+}
+.pool h2 {
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+.pool p {
+    font-size: 1.3em;
+}
+.pool img {
+    width:65em;
+    border-radius:47% 0% 100% 52% / 100% 100% 0% 100% ;
+    box-shadow:0px -7px 18px 0px rgba(0,0,0,0.49);
+}
