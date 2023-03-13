@@ -1,36 +1,36 @@
 <?php $title ="Torfbaeir";
 ob_start();?>
-<div class="container-fluid p-0" style="margin-top:10em;">
+<div class="container-fluid p-0" id="contTorf">
     <div class="row mb-5 p-0">
         <div class="col-7 p-0" id="carouselTorf">
         <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="../src/assets/Image/torfhouse.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/turfhouse.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse2.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse3.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse3.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse4.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse4.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse5.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse5.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse6.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse6.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse7.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse7.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse8.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse8.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                <img src="../src/assets/Image/torfhouse9.jpg" class="d-block w-100">
+                <img src="../src/assets/Image/torfhouse9.webp" alt="Torbaeir Image Carousel" class="d-block w-100">
                 </div>
             </div>
             </div>
@@ -56,7 +56,7 @@ ob_start();?>
     </div>
     <div class="row m-5 p-0">
         <div class="col">
-            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir1.png" class="img img-responsive" style="width:20em;">
+            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir1.webp" alt="Card Torfbaeir Disponible" class="img img-responsive">
                     <div class="profile-content">
                         <div class="profile-name">Torfbaeir FREYJA 
                             <p>Capacité : 2 -- Lit(s) queen size : 1</p>
@@ -72,13 +72,13 @@ ob_start();?>
                                 <p>Tarifs</p>
                                 <h4>100€/Jour<br/> 550€/Semaine</h4></div>
                             </div>
-                            <button type="button" class="btn btn-dark" style="width:10em;">Réserver</button>
+                            <button type="button" class="btn btn-dark bttnTorf" >Réserver</button>
                         </div>
                     </div>
                 </div>
         </div>
         <div class="col">
-            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir2.png" class="img img-responsive" style="width:20em;">
+            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir2.webp" alt="Card Torfbaeir Disponible" class="img img-responsive">
                     <div class="profile-content">
                         <div class="profile-name">Torfbaeir NJÖRÐUR
                             <p>Capacité : 1 -- Lit(s) 90x190cm : 1</p>
@@ -93,13 +93,13 @@ ob_start();?>
                                 <p>Tarifs</p>
                                 <h4>57€/Jour<br/> 350€/Semaine</h4></div>
                             </div>
-                            <button type="button" class="btn btn-dark" style="width:10em;">Réserver</button>
+                            <button type="button" class="btn btn-dark bttnTorf">Réserver</button>
                         </div>
                     </div>
                 </div>
         </div>
         <div class="col">
-            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir3.png" class="img img-responsive" style="width:20em;">
+            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir3.webp" alt="Card Torfbaeir Disponible" class="img img-responsive">
                     <div class="profile-content">
                         <div class="profile-name">Torfbaeir MAGNI 
                             <p>Capacité : 4 -- Lit(s) King size : 2</p>
@@ -116,13 +116,13 @@ ob_start();?>
                                 <p>Tarifs</p>
                                 <h4>250€/Jour<br/> 1100€/Semaine</h4></div>
                             </div>
-                            <button type="button" class="btn btn-dark" style="width:10em;">Réserver</button>
+                            <button type="button" class="btn btn-dark bttnTorf">Réserver</button>
                         </div>
                     </div>
                 </div>
         </div>
         <div class="col">
-            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir4.png" class="img img-responsive" style="width:20em;">
+            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir4.webp" alt="Card Torfbaeir Disponible" class="img img-responsive">
                     <div class="profile-content">
                         <div class="profile-name">Torfbaeir FRIGG 
                             <p>Capacité : 2 -- Lit(s) 90x190cm : 2</p>
@@ -140,13 +140,13 @@ ob_start();?>
                                 <p>Tarifs</p>
                                 <h4>120€/Jour<br/> 600€/Semaine</h4></div>
                             </div>
-                            <button type="button" class="btn btn-dark" style="width:10em;">Réserver</button>
+                            <button type="button" class="btn btn-dark bttnTorf">Réserver</button>
                         </div>
                     </div>
                 </div>
         </div>
         <div class="col">
-            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir5.png" class="img img-responsive" style="width:20em;">
+            <div class="profile-card-4 text-center"><img src="../src/assets/Image/torfbaeir5.webp" alt="Card Torfbaeir Disponible" class="img img-responsive">
                     <div class="profile-content">
                         <div class="profile-name">Torfbaeir FREYR 
                             <p>Capacité : 2 -- Lit(s) King size : 1</p>
@@ -162,7 +162,7 @@ ob_start();?>
                                 <p>Tarifs</p>
                                 <h4>110€/Jour<br/> 560€/Semaine</h4></div>
                             </div>
-                            <button type="button" class="btn btn-dark" style="width:10em;">Réserver</button>
+                            <button type="button" class="btn btn-dark bttnTorf">Réserver</button>
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ ob_start();?>
                 islandais et à Íslenskt sumarhús, nous sommes fiers de perpétuer la tradition pour nos clients.</p>
         </div>
         <div class="col-6 pool p-0">
-            <img src="../src/assets/Image/pool.webp">
+            <img src="../src/assets/Image/pool.webp" alt="Piscine de basalte">
         </div>
     </div>
 </div>

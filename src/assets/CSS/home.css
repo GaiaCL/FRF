@@ -4,11 +4,13 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-#homeHead {
-    opacity: 0.5;
+#headerHome {
+    height:65em;
+    background-image:url('../Image/homeHeader.webp');
+    background-size:cover;
 }
-#frontHeadImg {
-    position: absolute;
+#frontHead img {
+    margin-bottom:2em;
 }
 #frontHead {
     opacity: 0.8;
@@ -52,6 +54,11 @@ body {
     color: white;
     font-family: 'Quintessential', cursive;
     font-size: 1.2em;
+}
+#icelandReyk {
+    height:40em;
+    background-image:url('../Image/backgroundHom.webp');
+    background-size:cover;opacity:0.6;
 }
 .headertxt {
     color: white;
@@ -111,4 +118,11 @@ form h3 strong {
 #newsletter:hover {
     opacity: 0.7;
     cursor: pointer;
+}
+#newsLetterBlock {
+    height:25em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#newsLetterBlock img {
+    opacity:0.5;
 }

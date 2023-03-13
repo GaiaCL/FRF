@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    background-color: #343A40;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#introRestaurant {
+    margin-top: 9em;
+}
+#introRest {
+    font-family: 'Quintessential', cursive;
+    min-height: 10em;
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
+    z-index: 1;
+}
+#introRest img {
+    opacity: 0.5;
+}
+#introRest h1 {
+    font-size: 2em;
+    line-height: 150%;
+    color: #959595;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+#introRest h1 strong {
+    font-size: 1.1em;
+    color: #e2e2e2;
+    font-weight: normal;
+}
+#bannerRestaurant {
+    background-image: url('../Image/restaurantbanner.webp');
+    height: 57.500em;
+}
+.boxShadow {
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
+}
+#foodMenu .foodImg {
+    border: double #959595 10px;
+}
+.whiteLeaf img {
+    opacity: 0.4;
+}
+#foodMenu div:nth-child(4) p{
+    color: #e2e2e2;
+    font-size: 1.5em;
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+#bannerTwoRest {
+    background-image: url('../Image/banner2Rest.webp');
+    height: 36.125em;
+}
+#menuTitle {
+    color: #989797;
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+}
+#menuTitle h2 strong {
+    font-size: 5em;
+    color: #e2e2e2;
+}
+#menuTitle hr {
+    width: 30em;
+    height: 0.2em;
+    background-color: #e2e2e2;
+}
+#menuCarte img {
+    border: double #959595 10px;
+}
+#endRestBanner {
+    background-image: url('../Image/endbannerrest.webp');
+    height: 29.813em;
+}

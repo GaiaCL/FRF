@@ -5,11 +5,11 @@
 <div class="container-fluid p-0 m-0">
 
     <!--1st Row start -->
-    <div class="row" style="height:65em;background-image:url('../src/assets/Image/homeHeader.jpg');background-size:cover;">
+    <div class="row" id="headerHome">
         <div class="col-9"></div>
         <div class="col-2 d-flex flex-column align-items-center justify-content-center" id="frontHead">
-            <img src="../src/assets/Image/islandiccottage.png" width="250" style="margin-bottom:2em;">
-            <p>- Chalais -<br>
+            <img src="../src/assets/Image/islandiccottage.webp" alt="Chalets Islandais Logo">
+            <p>- Chalets -<br>
             - Loges de Verres -<br>
             - Torfbæir -<br></p>
             <p>Situés à Reykjavick</p>
@@ -24,9 +24,9 @@
 
     <!-- 2nd Row start -->
     <div class="row">
-        <div class="col-12 d-flex" style="margin-top: 3em;">
+        <div class="col-12 d-flex mt-5">
             <div class="col-9" id="textPresentation">
-                <p>Bienvenue aux Chalais Islandais, nous croyons à la création d'espace pour qui voudrait s'évader à travers le monde 
+                <p>Bienvenue aux Chalets Islandais, nous croyons à la création d'espace pour qui voudrait s'évader à travers le monde 
                     magique qu'est l'Islande. Ici nous avons créés pour vous la plus belle expérience que vous pourrez vivre dans notre Pays.
                     Immergez-vous à travers les forêts sauvages, découvrez chaque oeuvre d'art que la nature aura à vous offrir et juste pour un instant
                     libérez-vous de toute mauvaise énergie, respirez et détendez-vous. </p>
@@ -36,7 +36,7 @@
                     einasta listaverk sem náttúran hefur upp á að bjóða og losaðu þig um stund frá öllu til að anda og slaka á.</p>
             </div>
             <div class="col-3 text-center">
-                <img src="../src/assets/Image/icelandmap.png" width="300">
+                <img src="../src/assets/Image/icelandmap.webp" alt="Map de l'Islande">
             </div>
         </div>
     </div>
@@ -45,17 +45,17 @@
     <!-- 3rd Row start -->
     <div class="row d-flex justify-content-center">
         <div class="col-8 text-center mt-5 threeList">
-            <img class="m-4 listImg" src="../src/assets/Image/img1.png">
-            <img class="m-4 listImg" src="../src/assets/Image/img2.png">
-            <img class="m-4 listImg" src="../src/assets/Image/img3.png">
-            <p>Les plus beaux Chalais, Maisons d'Hôtes et Torfbær d'Islande.</p>
+            <img class="m-4 listImg" src="../src/assets/Image/img1.webp" alt="Torfbaeir Jour">
+            <img class="m-4 listImg" src="../src/assets/Image/img2.webp" alt="Chalet Noir dans une forêt">
+            <img class="m-4 listImg" src="../src/assets/Image/img3.webp" alt="Chalet dans une forêt de nuit">
+            <p>Les plus beaux Chalets, Maisons d'Hôtes et Torfbær d'Islande.</p>
         </div>
     </div>
     <!-- 3rd Row end -->
 
     <!-- 4th Row start -->
-    <div class="row mt-5 p-4 d-flex" style="height:40em;background-image:url('../src/assets/Image/backgroundHom.jpg');background-size:cover;opacity:0.6;">
-        <div class="col-5 d-flex flex-column justify-content-center align-items-start headertxt">
+    <div class="row mt-5 p-4 d-flex justify-content-center" id="icelandReyk">
+        <div class="col-5 d-flex flex-column justify-content-center text-left ms-3 headertxt">
             <h2>ICELAND</h2>
             <p>Iceland, island country located in the North Atlantic Ocean. Lying on
             the constantly active geologic border between North America and Europe,
@@ -67,10 +67,10 @@
             provides a surprisingly mild climate for what is one of the northernmost
             inhabited places on the planet.</p>
         </div>
-        <div class="col-2 d-flex justify-content-center align-items-center">
-            <img src="../src/assets/Image/whiteleaf.png" style="transform: rotate(90deg);">
+        <div class="col-1">
+            <img src="../src/assets/Image/separateur.webp" alt="separateur">
         </div>
-        <div class="col-5 d-flex flex-column justify-content-center align-items-end headertxt">
+        <div class="col-5 d-flex flex-column justify-content-center text-right headertxt">
         <h2>REYKJAVIC</h2>
         <p>Reykjavík is the natural starting point for any visit to
         Iceland, and not undeservedly so. The capital is worldrenowned for its culture, history, and natural beauty on all
@@ -89,36 +89,36 @@
     <div class="container-fluid">
     <div class="row d-flex flex-wrap  m-4">
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery1.webp" class="d-block w-100">
+            <img src="../src/assets/Image/gallery1.webp"  alt="Gallery Image 1">
         </div>
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery2.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery2.webp"  alt="Gallery Image 2">
         </div>
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery3.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery3.webp"  alt="Gallery Image 3">
         </div>
         <div class="col-3 galleryPic">
-            <img src="../src/assets/Image/gallery4.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery4.webp"  alt="Gallery Image 4">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery5.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery5.webp"  alt="Gallery Image 5">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery6.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery6.webp"  alt="Gallery Image 6">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery7.webp" class="d-block w-100">
+            <img src="../src/assets/Image/gallery7.webp"  alt="Gallery Image 7">
         </div>
         <div class="col-3 mt-4 galleryPic">
-            <img src="../src/assets/Image/gallery8.jpg" class="d-block w-100">
+            <img src="../src/assets/Image/gallery8.webp"  alt="Gallery Image 8">
         </div>
     </div>
     </div>
     <!-- 5th Row end -->
 
     <!-- 6th Row start -->
-    <div class="row m-5" style="height:25em;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-        <div class="col-2 d-flex justify-content-center align-items-center"><img src="../src/assets/Image/whiteleaf.png" style="width:20em;transform: rotate(90deg);opacity:0.5;"></div>
+    <div class="row m-5" id="newsLetterBlock">
+        <div class="col-2 d-flex justify-content-center align-items-center"><img src="../src/assets/Image/whiteleafleft.webp" alt="Bordure Plante"></div>
         <div class="col-8 d-flex flex-column justify-content-center align-items-center">
             <form action="" method="post">
             <h3>Abonnez-vous à notre Newsletter !<br><strong>Ne manquez aucunes informations !</strong></h3>
@@ -127,7 +127,7 @@
                 <button type="submit" id="newsletter">S'abonner</button>
             </form>
         </div>
-        <div class="col-2 d-flex justify-content-center align-items-center"><img src="../src/assets/Image/whiteleaf.png" style="width:20em;transform: rotate(270deg);opacity:0.5;"></div>
+        <div class="col-2 d-flex justify-content-center align-items-center"><img src="../src/assets/Image/whiteleafright.webp" alt="Bordure Plante"></div>
     </div>
     <!-- 6th Row end -->
 </div>

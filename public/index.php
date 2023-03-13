@@ -20,6 +20,14 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/loges.php');
             loges();
         }
+        else if ($page == "Chalets"){
+            require('../src/controllers/chalet.php');
+            chalet();
+        }
+        else if ($page == "Restaurant"){
+            require('../src/controllers/restaurant.php');
+            restaurant();
+        }
         else if ($page == "Home"){
             require('../src/controllers/home.php');
             home();

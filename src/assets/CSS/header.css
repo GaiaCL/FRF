@@ -14,6 +14,7 @@
     font-family: 'Quintessential', cursive;
     font-size: 1.4em;
     color: rgb(196, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #headerNav a h1 {
   color: white;
@@ -26,4 +27,8 @@
   font-size: 0.7em;
   font-weight: lighter;
   letter-spacing: 0.05em;
+}
+#titleNav {
+  border-left:1px solid;
+  border-right:1px solid;
 }

@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<div class="container-fluid" style="background-color:#1f2224;">
+<div class="container-fluid" id="contFooter">
 
   <footer class=" text-center text-lg-start text-white" >
     <div class="container p-4">
@@ -7,11 +7,11 @@
       <div class="row my-4">
 
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
-            <img src="../src/assets/Image/islandiccottage.png" height="150" alt=""
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" id="logoFooter" >
+            <img src="../src/assets/Image/islandiccottagefooter.webp" alt="Chalets Islandais Logo"
                  loading="lazy" />
           </div>
-          <p class="text-center fontChange"><strong>Íslenskt sumarhús</strong><br>Chalais Islandais </p>
+          <p class="text-center fontChange"><strong>Íslenskt sumarhús</strong><br>Chalets Islandais </p>
           <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
               <a class="text-white " href="#!">
@@ -31,9 +31,9 @@
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 fontChange">Liens utiles</h5>
-          <hr style="background:grey;width:8em;">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+          <h2 class="text-uppercase mb-4 fontChange">Liens utiles</h2>
+          <hr>
           <ul class="list-unstyled">
             <li class="mb-2">
               <a href="#!" class="text-white">- Locations -</a>
@@ -53,9 +53,9 @@
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 fontChange">Plus</h5>
-          <hr style="background:grey;width:8em;">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+          <h2 class="text-uppercase mb-4 fontChange">Plus</h2>
+          <hr>
           <ul class="list-unstyled">
             <li class="mb-2">
               <a href="#!" class="text-white">- A propos de nous -</a>
@@ -75,9 +75,9 @@
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 fontChange">Contact</h5>
-          <hr style="background:grey;width:8em;">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+          <h2 class="text-uppercase mb-4 fontChange">Contact</h2>
+          <hr>
           <ul class="list-unstyled">
             <li>
               <p><i class="fas fa-map-marker-alt pe-2"></i> Hverafold 111, Reykjavík</p>
@@ -95,7 +95,7 @@
 
     </div>
 
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center p-3" id="copyrightsFooter">
       © 2022-2023 Copyright:
       <a class="text-white" href="">Íslenskt sumarhús</a>
     </div>
@@ -104,4 +104,3 @@
 
 </div>
 <?php $footer = ob_get_clean();?>
-<?php require('layoutFooter.php'); ?>

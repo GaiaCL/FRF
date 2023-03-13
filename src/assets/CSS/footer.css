@@ -4,6 +4,9 @@ body {
     margin: 0;
     overflow-x: hidden;
   }
+  #contFooter {
+    background-color:#1f2224;
+  }
 .fontChange {
     font-family: 'Quintessential', cursive;
 }
@@ -15,4 +18,18 @@ body {
 }
 .list-unstyled li a:hover {
     opacity: 0.5;
+}
+#logoFooter {
+    width: 150px; 
+    height: 150px;
+}
+hr {
+    background:grey;
+    width:8em;
+}
+.listeFooter h2 {
+    font-size: 1.2em;
+}
+#copyrightsFooter {
+    background-color: rgba(0, 0, 0, 0.2);
 }

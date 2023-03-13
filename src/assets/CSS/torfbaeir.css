@@ -4,6 +4,9 @@ body  {
     background-color: #343A40;
     overflow-x: hidden;
 }
+#contTorf {
+    margin-top:10em;
+}
 #titleTorf {
     height:28em;
     background:#343A40;
@@ -151,7 +154,9 @@ body  {
     font-size: 1.3em;
 }
 .pool img {
-    width:60em;
     border-radius:47% 0% 100% 52% / 100% 100% 0% 100% ;
     border: 10px double #1f2224;
+}
+.bttnTorf {
+    width:10em;
 }

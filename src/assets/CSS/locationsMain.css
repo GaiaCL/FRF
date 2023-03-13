@@ -5,6 +5,9 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+#introLocation {
+    margin-top: 9em;
+}
 #introRent {
     font-family: 'Quintessential', cursive;
     height: 10em;
@@ -28,6 +31,8 @@ body {
 .location {
     font-family: 'Quintessential', cursive;
     color: #e2e2e2;
+    min-height:23em;
+    position:absolute
 }
 .location h2 {
     font-size: 5em;
@@ -53,8 +58,9 @@ body {
     opacity: 0.5;
     box-shadow: 0px 3px 16px 7px rgba(0,0,0,0.81);
 }
-
-
+.videoPosition {
+    position: relative;
+}
 @media (min-aspect-ratio: 16/9) {
     .videoBG {
         width:100%;
