@@ -28,6 +28,14 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/restaurant.php');
             restaurant();
         }
+        else if ($page == "Activite"){
+            require('../src/controllers/activite.php');
+            activite();
+        }
+        else if ($page == "Team"){
+            require('../src/controllers/team.php');
+            team();
+        }
         else if ($page == "Home"){
             require('../src/controllers/home.php');
             home();

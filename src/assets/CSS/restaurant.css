@@ -74,3 +74,49 @@ body {
     background-image: url('../Image/endbannerrest.webp');
     height: 29.813em;
 }
+#reservation hr {
+    color: #e3e3e3;
+    width: 30em;
+    height: 0.2em;
+}
+#reservation input:nth-child(-n+2) {
+    width: 40em;
+    height: 2em;
+    border-radius: 0.5em;
+    padding: 1em;  
+    background: #d9d9d9;
+}
+#reservation input:nth-child(3) {
+    background: #d9d9d9;
+    width: 20em;
+    height: 2em;
+    border-radius: 0.5em;
+    padding: 1em; 
+}
+#reservation h2 {
+    font-family: 'Quintessential', cursive;
+    color: #e2e2e2;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #000000;
+}
+#reservation p {
+    font-family: 'Quintessential', cursive;
+    color: #959595;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px #000000;
+}
+.borderLeaf {
+    opacity: 0.5;
+}
+#validation {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #2c3136;
+    color: #989797;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 10em;
+    box-shadow: 0px 1px 10px 3px rgba(0,0,0,0.39);
+}
+#validation:hover {
+    opacity: 0.5;
+}

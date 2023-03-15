@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    background-color: #343A40;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.introTeam {
+    margin-top: 9em;
+}
+.introTm {
+    font-family: 'Quintessential', cursive;
+    min-height: 10em;
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
+    z-index: 1;
+}
+.introTm img {
+    opacity: 0.5;
+}
+.introTm h1 {
+    font-size: 2em;
+    line-height: 150%;
+    color: #959595;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+.introTm h1 strong {
+    font-size: 1.1em;
+    color: #e2e2e2;
+    font-weight: normal;
+}
+.teamPortrait {
+    font-family: 'Quintessential', cursive;
+    color: #e2e2e2;
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
+    width: 30em;
+    margin: 6em;
+    margin-top: 0;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+.teamPortrait h2 {
+    font-size: 3em;
+}
+.teamPortrait p {
+    font-size: 1.2em;
+}
+.teamEmployees {
+    font-family: 'Quintessential', cursive;
+    color: #e2e2e2;
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
+    margin: 2em;
+    margin-top: 0;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+.teamEmployees h2 {
+    font-size: 3em;
+}
+.teamEmployees p {
+    font-size: 1.2em;
+}

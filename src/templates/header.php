@@ -22,10 +22,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Activités</a>
+              <a class="nav-link mx-2" href="index.php?page=Activite">Activités</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Notre Equipe</a>
+              <a class="nav-link mx-2" href="index.php?page=Team">Notre Equipe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">Contact</a>

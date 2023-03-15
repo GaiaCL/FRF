@@ -44,6 +44,25 @@
     </div>
     <div class="row" id="endRestBanner">
     </div>
+    <div class="row p-4 boxShadow">
+        <div class="col-3 d-flex justify-content-end">
+            <img src="../src/assets/Image/whiteleafleft.webp" alt="Bordure Plante Gauche" class="borderLeaf">
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center align-items-center" id="reservation">
+            <h2>RESERVATION</h2>
+            <p>Profitez d'une table à n'importe quel moment ! </p>
+            <hr>
+            <form method="POST" action="#" class="d-flex flex-column align-items-center justify-content-center">
+                <input type="mail" name="mail" placeholder="Mail" id="reservationMail" class="mb-3">
+                <input type="text" name="name" placeholder="Nom de Famille" id="reservationName" class="mb-3">
+                <input type="date" name="date" id="reservationDate" class="mb-3">
+                <input type="submit" name="submit" id="validation" value="Réserver">
+            </form>
+        </div>
+        <div class="col-3 d-flex justify-content-start">
+            <img src="../src/assets/Image/whiteleafright.webp" alt="Bordure Plante Droite" class="borderLeaf">
+        </div>
+    </div>
 </div>
 <?php $content = ob_get_clean(); ?>
 <?php require('layout.php'); ?>
