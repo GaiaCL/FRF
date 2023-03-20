@@ -1,64 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
-
 body {
     background-color: #212529;
     margin: 0;
-    padding: 0;
     overflow-x: hidden;
 }
-.introTeam {
+.introPropos {
     margin-top: 8em;
+    
 }
-.introTm {
+.introPropos {
     font-family: 'Quintessential', cursive;
-    min-height: 12em;
+    min-height: 10em;
     box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
     z-index: 1;
     background-image: url('../Image/icelandBanner.webp');
     background-size:cover;
 }
-.introTm img {
+.introPropos img {
     opacity: 0.5;
 }
-.introTm h1 {
+.introPropos h1 {
     font-size: 2em;
     line-height: 150%;
     color: #959595;
     text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
 }
-.introTm h1 strong {
+.introPropos h1 strong {
     font-size: 1.1em;
     color: #e2e2e2;
     font-weight: normal;
 }
-.teamPortrait {
+.aboutUs {
+    color: #959595;
     font-family: 'Quintessential', cursive;
-    color: #e2e2e2;
-    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
-    width: 30em;
-    margin: 6em;
-    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 2em;
     padding: 2em;
-    border-radius: 0.5em;
+    box-shadow: 0px 3px 16px 2px rgba(0,0,0,0.81);
+
 }
-.teamPortrait h2 {
-    font-size: 3em;
+#aboutOne p {
+    padding-right: 2em;
 }
-.teamPortrait p {
-    font-size: 1.2em;
+#aboutTwo p {
+    padding-left: 2em;
+    text-align: right;
 }
-.teamEmployees {
-    font-family: 'Quintessential', cursive;
-    color: #e2e2e2;
-    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
-    margin: 2em;
-    margin-top: 0;
-    padding: 2em;
-    border-radius: 0.5em;
+#aboutThree p {
+    padding-right: 2em;
 }
-.teamEmployees h2 {
-    font-size: 3em;
-}
-.teamEmployees p {
-    font-size: 1.2em;
+.aboutUs img {
+    width: 20em;
+    height: 20em;
+    border: double 8px #959595;
 }

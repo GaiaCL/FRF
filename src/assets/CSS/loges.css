@@ -1,7 +1,7 @@
 body  {
     padding: 0;
     margin: 0;
-    background-color: #343A40;
+    background-color: #212529;
     overflow-x: hidden;
 }
 #contLoges {
@@ -36,7 +36,7 @@ body  {
 }
 #carouselLoges img {
     border-radius: 29% 29% 29% 29% / 0% 29% 29% 0%  ;
-    border: 10px double #1f2224
+    border: 10px double #a4a9ac;
 }
 #dispoLoges {
     height: 30em;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 body {
-    background-color: #343A40;
+    background-color: #212529;
     margin: 0;
     overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ body {
     opacity: 0.8;
     height: 60em;
     border-radius: 0em 0em 0em 20em;
-    background-color: #343A40;
+    background-color: #212529;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -48,7 +48,7 @@ body {
     border: rgb(82, 82, 82) 3px solid;
 }
 .threeList {
-    background:linear-gradient(to bottom, #343A40 35%, #1f2224 0%);
+    background:linear-gradient(to bottom, #212529 35%, #343A40 0%);
 }
 .threeList p {
     color: white;
@@ -76,7 +76,7 @@ body {
 }
 .galleryPic img {
     border-radius: 0.5em;
-    border: #4e5357 solid 5px;
+    border: #333639 solid 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 form{

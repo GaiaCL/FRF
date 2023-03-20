@@ -3,14 +3,13 @@
     <div class="container-fluid p-0">
         <div class="row introActivite">
             <div class="col-12 d-flex justify-content-center align-items-center introAct">
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+                
                 <h1 class="m-5 text-center"><strong>Tout autour de l'Islande, profitez de nos 
-                <br>
                     activités multiples vous assurant le meilleur séjour !</strong>
                 <br>
                     Allt um Ísland, nýttu þér margvíslega starfsemi okkar til að tryggja þér bestu dvölina!
                 </h1>
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+                
             </div>
         </div>
         <div class="row p-0 m-0" id="activiteImg">
@@ -32,12 +31,12 @@
         </div>
         <div class="row introActivite mt-0 boxShadow" >
             <div class="col-12 d-flex justify-content-center align-items-center introAct">
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+                
                 <h1 class="m-5 text-center"><strong>Retrouvez toutes les activités disponibles dans cette carte intéractive !</strong>
                 <br>
                 Finndu alla starfsemi sem er í boði á þessu gagnvirka korti !
                 </h1>
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+              
             </div>
         </div>
         <div class="row">

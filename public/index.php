@@ -36,6 +36,30 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/team.php');
             team();
         }
+        else if ($page == "Contact"){
+            require('../src/controllers/contact.php');
+            contact();
+        }
+        else if ($page == "Propos"){
+            require('../src/controllers/propos.php');
+            propos();
+        }
+        else if ($page == "Iceland"){
+            require('../src/controllers/iceland.php');
+            iceland();
+        }
+        else if ($page == "Avis"){
+            require('../src/controllers/avis.php');
+            avis();
+        }
+        else if ($page == "Carrier"){
+            require('../src/controllers/carrier.php');
+            carrier();
+        }
+        else if ($page == "Condition"){
+            require('../src/controllers/condition.php');
+            condition();
+        }
         else if ($page == "Home"){
             require('../src/controllers/home.php');
             home();

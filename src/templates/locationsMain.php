@@ -3,11 +3,11 @@
 <div class="container-fluid p-0"> 
     <div class="row" id="introLocation">
         <div class="col-12 d-flex justify-content-center align-items-center" id="introRent">
-            <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+            
             <h1 class="m-5"><strong>Choisissez et Louez le parfait logement pour votre visite en Islande.</strong><br>
                 Veldu og leigðu hið fullkomna húsnæði fyrir heimsókn þína á Íslandi.
             </h1>
-            <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+            
         </div>
     </div>
     <div class="row d-flex align-items-center justify-content-center mb-5 mt-5 videoPosition">

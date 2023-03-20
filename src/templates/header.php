@@ -17,7 +17,7 @@
               <a class="nav-link mx-2" href="index.php?page=Restaurant">Restaurant</a>
             </li>
             <li class="nav-item d-none d-lg-block" id="titleNav">
-              <a class="nav-link mx-2" href="#" >
+              <a class="nav-link mx-2" href="index.php?page=Home" >
               <h1 >Íslenskt sumarhús <br><strong>Chalets Islandais</strong></h1>
               </a>
             </li>
@@ -28,7 +28,7 @@
               <a class="nav-link mx-2" href="index.php?page=Team">Notre Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Contact</a>
+              <a class="nav-link mx-2" href="index.php?page=Contact">Contact</a>
             </li>
           </ul>
         </div>

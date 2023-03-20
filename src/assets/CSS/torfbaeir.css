@@ -1,7 +1,7 @@
 body  {
     padding: 0;
     margin: 0;
-    background-color: #343A40;
+    background-color: #212529;
     overflow-x: hidden;
 }
 #contTorf {
@@ -46,7 +46,7 @@ body  {
 }
 #carouselTorf img {
     border-radius: 29% 29% 29% 29% / 0% 29% 29% 0%  ;
-    border: 10px double #1f2224;
+    border: 10px double #a4a9ac;
 }
 #dispoTorf {
     height: 10em;
@@ -155,7 +155,7 @@ body  {
 }
 .pool img {
     border-radius:47% 0% 100% 52% / 100% 100% 0% 100% ;
-    border: 10px double #1f2224;
+    border: 10px double #a4a9ac;
 }
 .bttnTorf {
     width:10em;

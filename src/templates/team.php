@@ -3,12 +3,11 @@
     <div class="container-fluid p-0">
         <div class="row introTeam">
             <div class="col-12 d-flex justify-content-center align-items-center introTm">
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
+                
                 <h1 class="m-5 text-center"><strong>Découvrez notre magnifique équipe !</strong>
                 <br>
                     Hittu frábæra teymið okkar !
                 </h1>
-                <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
             </div>
         </div>
         <div class="row mt-5 d-flex flex-wrap align-items-center justify-content-evenly">

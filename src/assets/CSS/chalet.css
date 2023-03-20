@@ -1,7 +1,7 @@
 body  {
     padding: 0;
     margin: 0;
-    background-color: #343A40;
+    background-color: #212529;
     overflow-x: hidden;
 }
 #contChalets {
@@ -12,7 +12,7 @@ body  {
 }
 #carouselChalets img {
     border-radius: 29% 29% 29% 29% / 0% 29% 29% 0%  ;
-    border: 10px double #1f2224
+    border: 10px double #a4a9ac;
 }
 #textChalets h1 {
     font-size:4em;

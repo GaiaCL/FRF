@@ -36,19 +36,19 @@
           <hr>
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="#!" class="text-white">- Locations -</a>
+              <a href="index.php?page=Locations" class="text-white">- Locations -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Restaurant -</a>
+              <a href="index.php?page=Restaurant" class="text-white">- Restaurant -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Activités -</a>
+              <a href="index.php?page=Activite" class="text-white">- Activités -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Notre Equipe -</a>
+              <a href="index.php?page=Team" class="text-white">- Notre Equipe -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Contact -</a>
+              <a href="index.php?page=Contact" class="text-white">- Contact -</a>
             </li>
           </ul>
         </div>
@@ -58,19 +58,19 @@
           <hr>
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="#!" class="text-white">- A propos de nous -</a>
+              <a href="index.php?page=Propos" class="text-white">- A propos de nous -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- L'Islande en détail -</a>
+              <a href="index.php?page=Iceland" class="text-white">- L'Islande en détail -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Vos Avis -</a>
+              <a href="index.php?page=Avis" class="text-white">- Vos Avis -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Carrière -</a>
+              <a href="index.php?page=Carrier" class="text-white">- Carrière -</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">- Condition Générales - </a>
+              <a href="index.php?page=Conditions" class="text-white">- Condition Générales - </a>
             </li>
           </ul>
         </div>

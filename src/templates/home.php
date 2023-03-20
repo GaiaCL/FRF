@@ -24,7 +24,7 @@
 
     <!-- 2nd Row start -->
     <div class="row">
-        <div class="col-12 d-flex mt-5">
+        <div class="col-12 d-flex m-5">
             <div class="col-9" id="textPresentation">
                 <p>Bienvenue aux Chalets Islandais, nous croyons à la création d'espace pour qui voudrait s'évader à travers le monde 
                     magique qu'est l'Islande. Ici nous avons créés pour vous la plus belle expérience que vous pourrez vivre dans notre Pays.

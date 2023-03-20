@@ -2,7 +2,7 @@
 <?php ob_start(); ?>
 <div class="container-fluid p-0" id="contChalets">
 
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-7" id="carouselChalets">
         <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">

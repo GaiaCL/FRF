@@ -3,11 +3,9 @@
 <div class="container-fluid p-0">
     <div class="row" id="introRestaurant">
         <div class="col-12 d-flex justify-content-center align-items-center" id="introRest">
-            <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
-            <h1 class="m-5 text-center"><strong>Profitez de votre diner avec nous dans notre Restaurant !<br>"Le Lagon de Lave"</strong><br>
-            Njóttu kvöldverðarins með okkur á veitingastaðnum okkar!<br>"Hraunlónið"
+            <h1 class="m-5 text-center"><strong>Profitez de votre diner avec nous dans notre Restaurant "Le Lagon de Lave" !</strong><br>
+            Njóttu kvöldverðarins með okkur á veitingastaðnum okkar "Hraunlónið" !
             </h1>
-            <img src="../src/assets/Image/whiteleaf.webp" alt="Border Plante">
         </div>
     </div>
     <div class="row" id="bannerRestaurant">
@@ -56,7 +54,7 @@
                 <input type="mail" name="mail" placeholder="Mail" id="reservationMail" class="mb-3">
                 <input type="text" name="name" placeholder="Nom de Famille" id="reservationName" class="mb-3">
                 <input type="date" name="date" id="reservationDate" class="mb-3">
-                <input type="submit" name="submit" id="validation" value="Réserver">
+                <button type="submit" id="validation" name="submit">Réserver</button>
             </form>
         </div>
         <div class="col-3 d-flex justify-content-start">
