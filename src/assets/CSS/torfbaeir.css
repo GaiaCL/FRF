@@ -69,7 +69,6 @@ body  {
     overflow: hidden;
     position: relative;
     margin: 10px auto;
-    cursor: pointer;
 }
 
 .profile-card-4 img {
@@ -157,6 +156,15 @@ body  {
     border-radius:47% 0% 100% 52% / 100% 100% 0% 100% ;
     border: 10px double #a4a9ac;
 }
+
 .bttnTorf {
+    text-decoration: none;
+    color: #a4a9ac;
     width:10em;
+    background: #1f2224;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+.bttnTorf:hover {
+    opacity: 0.5;
 }

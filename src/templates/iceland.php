@@ -56,17 +56,42 @@
                 </h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row mt-5 mb-5 d-flex justify-content-center align-items-center">
+            <div class="col-8 safetravelIntro ps-5" >
             <p>L'Islande est-elle un pays sûr ? En fait, il est difficile de se sentir 
                 plus en sécurité qu'ici : l'Islande est un pays avec l'un des taux de criminalité les 
                 plus bas au monde, se classant consécutivement à la 1ère place sur l'indice mondial de la paix
                 et n'abritant aucun prédateur animal dangereux pour l'homme. Cela ne semble donc pas très dangereux, 
                 mais les défis sont ailleurs.</p>
-            <p>Le temps et la nature dictent la vie quotidienne de l'Islande. Situé au cercle polaire arctique et au 
+                <p>Le temps et la nature dictent la vie quotidienne de l'Islande. Situé au cercle polaire arctique et au 
                 milieu de l'océan Atlantique, les explosions météorologiques imprévisibles et les changements rapides de température 
                 sont normaux. Le paysage accidenté, intact et peu peuplé est magnifique, mais vous oblige également à prendre soin et à 
                 prendre des précautions lors de l'exploration.</p>
+            </div>
+            <div class="col-4 d-flex align-items-center justify-content-center" >
+                <img src="../src/assets/Image/criminality.webp" alt="">
+            </div>
+        </div>
+        <div class="row d-flex flex-column justify-content-center align-items-center" id="safetravelDrive">
+            <div class="col-6 safetravelIntro" >
+                <h2 class="text-center mb-5">CONDUIRE EN ISLANDE</h2>
+                <p class="text-center">La conduite en Islande est très différente de partout ailleurs, à cause des routes de gravier, 
+                enneigées et verglacées ainsi que de nombreux passages de montagne. Mais on est aussi si facilement 
+                distrait par le paysage magnifique. Par conséquent, il est important de porter une attention particulière 
+                à la surface de la route, aux conditions météorologiques et à la circulation. Ces derniers peuvent même 
+                parfois inclure des animaux, notamment des moutons. Il est vital pour vous et la nature et la végétation sensibles 
+                qui vous entourent de rester sur des chemins balisés.</p>
+            </div>
+        </div>
+        <div class="row mt-5 ">
+            <div class="col-6 safetravelIntro d-flex justify-content-center align-items-center">
+                <h2>POUR PLUS D'INFORMATIONS<br> RENDEZ-VOUS ICI : </h2>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="row m-5">
+                <a href="https://fr.visiticeland.com/"><div class="col-6 me-5 d-flex justify-content-end align-items-center cardIceland" >
+                    
+                </div></a>
             </div>
         </div>
     </div>

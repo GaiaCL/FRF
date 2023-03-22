@@ -16,7 +16,7 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/torfbaeir.php');
             torfbaeir();
         }
-        else if ($page == "Loges"){
+        else if ($page == "Loges Panoramiques"){
             require('../src/controllers/loges.php');
             loges();
         }
@@ -59,6 +59,10 @@ if(!isset($_GET['page'])) {
         else if ($page == "Condition"){
             require('../src/controllers/condition.php');
             condition();
+        }
+        else if ($page == "FREYJA" || $page == "NJORDUR" || $page == "MAGNI" || $page == "FRIGG" || $page == "FREYR" ){
+            require('../src/controllers/reservationTorf.php');
+            reservationTorf();
         }
         else if ($page == "Home"){
             require('../src/controllers/home.php');

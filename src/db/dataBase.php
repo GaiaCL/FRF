@@ -1,17 +1,14 @@
 <?php
 
-class DatabaseConnection
-{
-    public ?PDO $database = null;
 
-    public function getConnection(): PDO
-    {
-        if ($this->database === null) {
-            $this->database = new PDO( 'mysql:host=localhost;dbname=fefr;charset=utf8',
-            'root',
-            '');
-        }
-
-        return $this->database;
+function dbConnect() {
+    try
+     {
+     $db = new PDO('mysql:host=localhost;dbname=islensktsumarhus;charset=utf8', 'root',
+    '');
+     }
+     catch(Exception $e){
+     die( 'Erreur : '.$e->getMessage() );
+     } 
+    return $db;
     }
-}
