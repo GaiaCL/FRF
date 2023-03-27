@@ -1,8 +1,8 @@
 <?php $title = "L'islande en détail"; ?>
 <?php ob_start(); ?>
     <div class="container-fluid">
-        <div class="row introIceland">
-            <div class="col-12 d-flex justify-content-center align-items-center introIce">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
                 <h1 class="m-5 text-center"><strong>L'islande en détail.</strong>
                 <br>
                 Ísland í smáatriðum.
@@ -48,8 +48,8 @@
                     spectaculaire - et même des divertissements.</p>
             </div>
         </div>
-        <div class="row introIceland mt-0">
-            <div class="col-12 d-flex justify-content-center align-items-center introIce">
+        <div class="row mt-0">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
                 <h1 class="m-5 text-center"><strong>SAFETRAVEL - TOUT CE QUE VOUS DEVEZ SAVOIR POUR UN VOYAGE EN TOUTE SÉCURITÉ EN ISLANDE</strong>
                 <br>
                 SAFETRAVEL - ALLT ÞÚ ÞARFT AÐ VITA TIL AÐ ÖRYGGI FERÐ Á ÍSLANDI

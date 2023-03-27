@@ -1,8 +1,8 @@
 <?php $title="Activités"; ?>
 <?php ob_start(); ?>
     <div class="container-fluid p-0">
-        <div class="row introActivite">
-            <div class="col-12 d-flex justify-content-center align-items-center introAct">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
                 
                 <h1 class="m-5 text-center"><strong>Tout autour de l'Islande, profitez de nos 
                     activités multiples vous assurant le meilleur séjour !</strong>
@@ -12,7 +12,7 @@
                 
             </div>
         </div>
-        <div class="row p-0 m-0" id="activiteImg">
+        <div class="row p-0 m-0">
             <div class="col-12 d-flex justify-content-center align-items-start" id="icecaves">
                 <h2 class="activiteText m-0"> <a href=""> Découverte des Grottes Gelées </a> </h2>
             </div>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="row introActivite mt-0 boxShadow" >
-            <div class="col-12 d-flex justify-content-center align-items-center introAct">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
                 
                 <h1 class="m-5 text-center"><strong>Retrouvez toutes les activités disponibles dans cette carte intéractive !</strong>
                 <br>

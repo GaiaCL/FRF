@@ -1,36 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
-
-body {
-    background-color: #212529;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-.introTeam {
-    margin-top: 8em;
-}
-.introTm {
-    font-family: 'Quintessential', cursive;
-    min-height: 12em;
-    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
-    z-index: 1;
-    background-image: url('../Image/icelandBanner.webp');
-    background-size:cover;
-}
-.introTm img {
-    opacity: 0.5;
-}
-.introTm h1 {
-    font-size: 2em;
-    line-height: 150%;
-    color: #959595;
-    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
-}
-.introTm h1 strong {
-    font-size: 1.1em;
-    color: #e2e2e2;
-    font-weight: normal;
-}
 .teamPortrait {
     font-family: 'Quintessential', cursive;
     color: #e2e2e2;

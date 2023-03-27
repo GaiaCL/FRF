@@ -1,8 +1,8 @@
 <?php $title="A propos"; ?>
 <?php ob_start(); ?>
 <div class="container-fluid">
-<div class="row introPropos">
-        <div class="col-12 d-flex justify-content-center align-items-center introPro">
+<div class="row ">
+        <div class="col-12 d-flex justify-content-center align-items-center intro">
             <h1 class="m-5 text-center"><strong>A Propos de Nous !</strong>
             <br>
             Um okkur !

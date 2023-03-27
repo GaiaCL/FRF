@@ -1,8 +1,8 @@
 <?php $title ="Notre équipe"; ?>
 <?php ob_start(); ?>
     <div class="container-fluid p-0">
-        <div class="row introTeam">
-            <div class="col-12 d-flex justify-content-center align-items-center introTm">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
                 
                 <h1 class="m-5 text-center"><strong>Découvrez notre magnifique équipe !</strong>
                 <br>

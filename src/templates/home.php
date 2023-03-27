@@ -5,27 +5,17 @@
 <div class="container-fluid p-0 m-0">
 
     <!--1st Row start -->
-    <div class="row" id="headerHome">
-        <div class="col-9"></div>
-        <div class="col-2 d-flex flex-column align-items-center justify-content-center" id="frontHead">
-            <img src="../src/assets/Image/islandiccottage.webp" alt="Chalets Islandais Logo">
-            <p>- Chalets -<br>
-            - Loges de Verres -<br>
-            - Torfbæir -<br></p>
-            <p>Situés à Reykjavick</p>
-            <div class="socials">
-                <a href=""><i class="fa-brands fa-facebook fa-3x m-1"></i></a>
-                <a href=""><i class="fa-brands fa-twitter fa-3x m-1"></i></a>
-                <a href=""><i class="fa-brands fa-instagram fa-3x m-1"></i></a>
-            </div>
-        </div>
+    <div class="row ">
+          <div class="col-12 headerHome d-flex flex-column justify-content-center align-items-center">
+            <h1> Íslenskt sumarhús</h1>
+            <h2>~ Chalets, Loges de Verres, Torfbaeir ~</h2>
+          </div>         
     </div>
     <!-- 1st Row end -->
 
     <!-- 2nd Row start -->
-    <div class="row">
-        <div class="col-12 d-flex m-5">
-            <div class="col-9" id="textPresentation">
+    <div class="row mt-5">
+            <div class="col-xl-9 col-lg-12 textPresentation text-center">
                 <p>Bienvenue aux Chalets Islandais, nous croyons à la création d'espace pour qui voudrait s'évader à travers le monde 
                     magique qu'est l'Islande. Ici nous avons créés pour vous la plus belle expérience que vous pourrez vivre dans notre Pays.
                     Immergez-vous à travers les forêts sauvages, découvrez chaque oeuvre d'art que la nature aura à vous offrir et juste pour un instant
@@ -35,10 +25,9 @@
                     við fyrir þig fallegustu upplifun sem þú getur upplifað í landinu okkar. Sökkva þér niður í villtum skógum, uppgötvaðu hvert
                     einasta listaverk sem náttúran hefur upp á að bjóða og losaðu þig um stund frá öllu til að anda og slaka á.</p>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-xl-3 col-lg-12 text-center">
                 <img src="../src/assets/Image/icelandmap.webp" alt="Map de l'Islande">
             </div>
-        </div>
     </div>
     <!-- 2nd Row end -->
 
@@ -54,70 +43,67 @@
     <!-- 3rd Row end -->
 
     <!-- 4th Row start -->
-    <div class="row mt-5 p-4 d-flex justify-content-center" id="icelandReyk">
+    <div class="row mt-5 p-4 d-flex justify-content-center icelandReyk">
         <div class="col-5 d-flex flex-column justify-content-center text-left ms-3 headertxt">
-            <h2>ICELAND</h2>
-            <p>Iceland, island country located in the North Atlantic Ocean. Lying on
-            the constantly active geologic border between North America and Europe,
-            Iceland is a land of vivid contrasts of climate, geography, and culture.
-            Sparkling glaciers, such as Vatna Glacier (Vatnajökull), Europe’s
-            largest, lie across its ruggedly beautiful mountain ranges; abundant hot
-            geysers provide heat for many of the country’s homes and buildings and
-            allow for hothouse agriculture year-round; and the offshore Gulf Stream
-            provides a surprisingly mild climate for what is one of the northernmost
-            inhabited places on the planet.</p>
+            <h2>ISLANDE</h2>
+            <p>L'Islande, pays insulaire situé dans l'océan Atlantique Nord. Allongé sur
+            la frontière géologique constamment active entre l'Amérique du Nord et l'Europe,
+            L'Islande est une terre de contrastes saisissants de climat, de géographie et de culture.
+            Des glaciers étincelants, tels que le glacier Vatna (Vatnajökull), le
+            le plus grand, s'étendent sur ses magnifiques chaînes de montagnes accidentées. Chauds et abondants
+            les geysers fournissent de la chaleur à de nombreuses maisons et bâtiments du pays et
+            permettre l'agriculture sous serre toute l'année.</p>
         </div>
         <div class="col-1">
             <img src="../src/assets/Image/separateur.webp" alt="separateur">
         </div>
         <div class="col-5 d-flex flex-column justify-content-center text-right headertxt">
         <h2>REYKJAVIC</h2>
-        <p>Reykjavík is the natural starting point for any visit to
-        Iceland, and not undeservedly so. The capital is worldrenowned for its culture, history, and natural beauty on all
+        <p>Reykjavík est le point de départ naturel de toute visite en
+        Islande, et pas sans raison. La capitale est mondialement connue pour sa culture, son histoire et sa beauté naturelle sur tous
         fronts. 
         <br><br>
-        From the city, many day trips can also be taken to the
-        surrounding mountains, glaciers, volcanoes and hot springs.
-        Day-excursions from Reykjavík include horseback riding,
-        glacier climbing, river rafting, caving, whale watching, and
-        more.</p>
+        De la ville, de nombreuses excursions d'une journée peuvent être effectuées vers les
+        montagnes environnantes, glaciers, volcans et sources chaudes.
+        Les excursions d'une journée au départ de Reykjavík incluent l'équitation,
+        escalade sur glacier, rafting, spéléologie, observation des baleines et
+        plus.</p>
         </div>
     </div>
     <!-- 4th Row end -->
 
     <!-- 5th Row start -->
-    <div class="container-fluid">
-    <div class="row d-flex flex-wrap  m-4">
-        <div class="col-3 galleryPic">
+    <div class="row p-5 pb-2 d-flex flex-wrap ">
+        <div class="col-3 galleryPic mb-3">
             <img src="../src/assets/Image/gallery1.webp"  alt="Gallery Image 1">
         </div>
-        <div class="col-3 galleryPic">
+        <div class="col-3 galleryPic mb-3">
             <img src="../src/assets/Image/gallery2.webp"  alt="Gallery Image 2">
         </div>
-        <div class="col-3 galleryPic">
+        <div class="col-3 galleryPic mb-3">
             <img src="../src/assets/Image/gallery3.webp"  alt="Gallery Image 3">
         </div>
-        <div class="col-3 galleryPic">
+        <div class="col-3 galleryPic mb-3">
             <img src="../src/assets/Image/gallery4.webp"  alt="Gallery Image 4">
         </div>
-        <div class="col-3 mt-4 galleryPic">
+        <div class="col-3 galleryPic">
             <img src="../src/assets/Image/gallery5.webp"  alt="Gallery Image 5">
         </div>
-        <div class="col-3 mt-4 galleryPic">
+        <div class="col-3 galleryPic">
             <img src="../src/assets/Image/gallery6.webp"  alt="Gallery Image 6">
         </div>
-        <div class="col-3 mt-4 galleryPic">
+        <div class="col-3 galleryPic">
             <img src="../src/assets/Image/gallery7.webp"  alt="Gallery Image 7">
         </div>
-        <div class="col-3 mt-4 galleryPic">
+        <div class="col-3 galleryPic">
             <img src="../src/assets/Image/gallery8.webp"  alt="Gallery Image 8">
         </div>
     </div>
-    </div>
+
     <!-- 5th Row end -->
 
     <!-- 6th Row start -->
-    <div class="row m-5" id="newsLetterBlock">
+    <div class="row m-5 newsLetterBlock">
         <div class="col-2 d-flex justify-content-center align-items-center"><img src="../src/assets/Image/whiteleafleft.webp" alt="Bordure Plante"></div>
         <div class="col-8 d-flex flex-column justify-content-center align-items-center">
             <form action="" method="post">

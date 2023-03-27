@@ -12,17 +12,9 @@ if(!isset($_GET['page'])) {
             require('../src/controllers/locationsMain.php');
             locationsMain();
         }
-        else if ($page == "Torfbaeir"){
-            require('../src/controllers/torfbaeir.php');
-            torfbaeir();
-        }
-        else if ($page == "Loges Panoramiques"){
-            require('../src/controllers/loges.php');
-            loges();
-        }
-        else if ($page == "Chalets"){
-            require('../src/controllers/chalet.php');
-            chalet();
+        else if ($page == "Torfbaeir" || $page == "Chalets" || $page == "Loges Panoramiques" ){
+            require('../src/controllers/locations.php');
+            locations();
         }
         else if ($page == "Restaurant"){
             require('../src/controllers/restaurant.php');

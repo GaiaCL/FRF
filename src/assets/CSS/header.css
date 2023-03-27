@@ -1,20 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
-
 @media screen and (min-width:992px){
     .nav-item {
     line-height:80px;
     }
   }
-  body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-  }
 #headerNav {
     font-family: 'Quintessential', cursive;
     font-size: 1.4em;
     color: rgb(196, 196, 196);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #headerNav a h1 {
   color: white;
@@ -31,4 +23,9 @@
 #titleNav {
   border-left:1px solid;
   border-right:1px solid;
+}
+#titleNav a h1 strong {
+  font-size: 0.6em;
+  color: rgb(175, 174, 174);
+  
 }

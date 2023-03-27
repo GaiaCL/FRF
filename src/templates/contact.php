@@ -1,8 +1,8 @@
 <?php $title ="Contact"; ?>
 <?php ob_start(); ?>
 <div class="container-fluid">
-    <div class="row introContact">
-        <div class="col-12 d-flex justify-content-center align-items-center introCont">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center intro">
             <h1 class="m-5 text-center"><strong>Contactez-nous !</strong>
             <br>
             Hafðu samband við okkur

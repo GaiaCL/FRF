@@ -1,107 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
-
-body {
-    background-color: #212529;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-#introRestaurant {
-    margin-top: 8em;
-}
-#introRest {
-    font-family: 'Quintessential', cursive;
-    min-height: 10em;
-    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
-    z-index: 1;
-    background-image: url('../Image/icelandBanner.webp');
-    background-size:cover;
-}
-#introRest img {
-    opacity: 0.5;
-}
-#introRest h1 {
-    font-size: 2em;
-    line-height: 150%;
-    color: #959595;
-    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
-}
-#introRest h1 strong {
-    font-size: 1.1em;
-    color: #e2e2e2;
-    font-weight: normal;
-}
-#bannerRestaurant {
+.bannerRestaurant {
     background-image: url('../Image/restaurantbanner.webp');
     height: 57.500em;
 }
 .boxShadow {
     box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
 }
-#foodMenu .foodImg {
+.foodMenu .foodImg {
     border: double #959595 10px;
 }
 .whiteLeaf img {
     opacity: 0.4;
 }
-#foodMenu div:nth-child(4) p{
+.foodMenu div:nth-child(4) p{
     color: #e2e2e2;
     font-size: 1.5em;
     font-family: 'Quintessential', cursive;
     text-align: center;
     text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
 }
-#bannerTwoRest {
+.bannerTwoRest {
     background-image: url('../Image/banner2Rest.webp');
     height: 36.125em;
 }
-#menuTitle {
+.menuTitle {
     color: #989797;
     font-family: 'Quintessential', cursive;
     text-align: center;
 }
-#menuTitle h2 strong {
+.menuTitle h2 strong {
     font-size: 5em;
     color: #e2e2e2;
 }
-#menuTitle hr {
+.menuTitle hr {
     width: 30em;
     height: 0.2em;
     background-color: #e2e2e2;
 }
-#menuCarte img {
+.menuCarte img {
     border: double #959595 10px;
 }
 #endRestBanner {
     background-image: url('../Image/endbannerrest.webp');
     height: 29.813em;
 }
-#reservation hr {
+.reservation hr {
     color: #e3e3e3;
     width: 30em;
     height: 0.2em;
 }
-#reservation input:nth-child(-n+2) {
+.reservation input:nth-child(-n+2) {
     width: 40em;
     height: 2em;
     border-radius: 0.5em;
     padding: 1em;  
     background: #d9d9d9;
 }
-#reservation input:nth-child(3) {
+.reservation input:nth-child(3) {
     background: #d9d9d9;
     width: 20em;
     height: 2em;
     border-radius: 0.5em;
     padding: 1em; 
 }
-#reservation h2 {
+.reservation h2 {
     font-family: 'Quintessential', cursive;
     color: #e2e2e2;
     font-size: 3em;
     text-shadow: 2px 2px 2px #000000;
 }
-#reservation p {
+.reservation p {
     font-family: 'Quintessential', cursive;
     color: #959595;
     font-size: 1.5em;
@@ -110,7 +77,7 @@ body {
 .borderLeaf {
     opacity: 0.5;
 }
-#validation {
+.validation {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 10em;
     height:2.5em;
@@ -122,6 +89,6 @@ body {
     box-shadow: rgba(59, 59, 59, 0.17) 0px -23px 25px 0px inset, rgba(126, 126, 126, 0.15) 0px -36px 30px 0px inset, rgba(144, 144, 144, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
-#validation:hover {
+.validation:hover {
     opacity: 0.5;
 }

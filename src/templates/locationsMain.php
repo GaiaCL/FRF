@@ -1,8 +1,8 @@
 <?php $title = "Locations"; ?>
 <?php ob_start(); ?>
 <div class="container-fluid p-0"> 
-    <div class="row" id="introLocation">
-        <div class="col-12 d-flex justify-content-center align-items-center" id="introRent">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center intro">
             
             <h1 class="m-5"><strong>Choisissez et Louez le parfait logement pour votre visite en Islande.</strong><br>
                 Veldu og leigðu hið fullkomna húsnæði fyrir heimsókn þína á Íslandi.
