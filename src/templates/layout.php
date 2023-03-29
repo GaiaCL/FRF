@@ -11,13 +11,18 @@
     <link rel='stylesheet' href='../src/assets/CSS/footer.css'>
     <link rel='stylesheet' href='../src/assets/CSS/global.css'>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <?= $css; ?>
     <title> <?= $title ?> </title>
   </head>
   <body>
-    <!-- <?= $header; ?> -->
+    <div class="wrapper">
+    <?= $header; ?>
     <?= $content; ?>
+    <div class="push"></div>
+    </div>
     <?= $footer; ?>
+    <script src="../src/assets/JS/nav.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <script src="../src/assets/JS/map.js" crossorigin=""></script>
     <script src="https://kit.fontawesome.com/aeb0ab4057.js" crossorigin="anonymous"></script>

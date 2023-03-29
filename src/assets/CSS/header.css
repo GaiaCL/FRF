@@ -1,31 +1,13 @@
 @media screen and (min-width:992px){
     .nav-item {
-    line-height:80px;
+    line-height:50px;
     }
   }
 #headerNav {
     font-family: 'Quintessential', cursive;
     font-size: 1.4em;
-    color: rgb(196, 196, 196);
+    color: wheat;
 }
-#headerNav a h1 {
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 0.2em;
-}
-#headerNav a h1 strong {
-  font-size: 0.7em;
-  font-weight: lighter;
-  letter-spacing: 0.05em;
-}
-#titleNav {
-  border-left:1px solid;
-  border-right:1px solid;
-}
-#titleNav a h1 strong {
-  font-size: 0.6em;
-  color: rgb(175, 174, 174);
-  
+.navLinks, .socialLinks {
+  color: #f5deb3;
 }

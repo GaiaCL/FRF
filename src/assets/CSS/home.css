@@ -4,137 +4,35 @@
     height: 62em;
     font-family: 'Quintessential', cursive;
 }
-.headerHome h1 {
+.blockOne {
+    background-image: url('../Image/bgBlockOne.webp');
+}
+.titleIntro h1 {
     
-    color: #a4a9ac;
+    color: #ffffff;
     font-size: 7em;
 }
-.headerHome h1:hover {
+.titleIntro h1:hover {
     color: #c4ccd1;
     cursor: pointer;
     font-size: 7em;
 }
-.headerHome h2 {
+.titleIntro h2 {
     color: #cbd0d3;
     font-size: 2em;
 }
-.frontHead img {
-    margin-top: 2em;
-    margin-bottom:2em;
-}
-.frontHead {
-    opacity: 0.8;
-    height: 40em;
-}
-.frontHead p {
-    font-size: 2em;
-    margin-bottom: 1em;
-    color: rgb(253, 253, 253);
+.blockOne h2 {
+    color: wheat;
     font-family: 'Quintessential', cursive;
-    font-weight: lighter;
-    text-align: center;
-    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
-}
-.socials a {
-    color: white;
-    
-}
-.socials a:hover {
-    opacity: 0.5;
-}
-.textPresentation p {
-    font-family: 'Quintessential', cursive;
-    color: white;
-    font-size: 1.5em;
-}
-.textPresentation hr {
-    background-color: rgb(140, 140, 140);
-    width: 30em;
-}
-.listImg {
-    border: rgb(82, 82, 82) 3px solid;
-}
-.threeList {
-    background:linear-gradient(to bottom, #212529 35%, #343A40 0%);
-}
-.threeList p {
-    color: white;
-    font-family: 'Quintessential', cursive;
-    font-size: 1.2em;
-}
-.icelandReyk {
-    height:40em;
-    background-image:url('../Image/backgroundHom.webp');
-    background-size:cover;opacity:0.6;
-}
-.headertxt {
-    color: white;
-    font-family: 'Quintessential', cursive;
-    
-}
-.headertxt h2 {
-    font-size: 5em;
-    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
-    
-}
-.headertxt p {
-    font-size: 1.7em;
-    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
-}
-.galleryPic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.galleryPic img {
-    border-radius: 0.5em;
-    border: #333639 solid 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-}
-input {
-    width: 50em;
-    height: 2.5em;
-    margin: 1em;
-    background-color: #a4a9ac;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 0.5em;
-}
-form h3 {
-    font-family: 'Quintessential', cursive;
-    color: #a4a9ac;
     font-size: 3em;
-    text-align: center;
 }
-form h3 strong {
-    font-weight: lighter;
-    font-size: 0.5em;
+.blockOne h2 strong {
+    font-size: 2em;
+    color: #d3dcd3;
 }
-.newsLetterBlock {
-    height:25em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.newsLetterBlock img {
-    opacity:0.5;
-}
-#newsletter {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 10em;
-    height:2.5em;
-    background-color: #1f2224;
-    color: #a4a9ac;
+.welcome {
+    color: wheat;
     font-size: 1.2em;
-    border-radius: 0.5em;
-    border: none;
-    box-shadow: rgba(59, 59, 59, 0.17) 0px -23px 25px 0px inset, rgba(126, 126, 126, 0.15) 0px -36px 30px 0px inset, rgba(144, 144, 144, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-#newsletter:hover {
-    opacity: 0.7;
-    cursor: pointer;
+    font-family: 'Quintessential', cursive;
+    background: #0d0d0d;
 }

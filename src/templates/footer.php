@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
 <div class="container-fluid" id="contFooter">
 
-  <footer class=" text-center text-lg-start text-white" >
+  <footer class=" text-center text-lg-start text-white " >
     <div class="container p-4">
 
       <div class="row my-4">

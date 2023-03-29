@@ -1,6 +1,7 @@
 
   #contFooter {
-    background-color:#1f2224;
+    background-image: url('../Image/footerbanner.webp');
+    background-size: cover;
   }
 .fontChange {
     font-family: 'Quintessential', cursive;
