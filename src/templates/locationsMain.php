@@ -11,17 +11,20 @@
         </div>
     </div>
     <?php foreach($locations as $location) { ?>
-    <div class="row d-flex align-items-center justify-content-center mb-5 mt-5 videoPosition">
-        <div class="col-8 p-0">
+    <div class="row d-flex align-items-center justify-content-center videoPosition">
+        <div class="col-12 p-0">
         <video autoplay muted loop class="videoBG">
         <source src="<?= $location['chemin_videos']?>" type="video/mp4">
         </video>
         </div>
-        <div class="col-8 text-center pt-4 location">
+        <div class="col-8 pt-4 location d-flex flex-column justify-content-center align-items-center">
             <h2><?= $location['nom_cat'] ?></h2>
             <p><?= $location['description_cat']?></p>
-            <a href="index.php?page=<?= $location['nom_cat'] ?>&id=<?= $location['id_categories']?>" class="seeMore">En Savoir Plus </a>
+            <button class="button-83 m-3 d-flex align-items-center justify-content-center" role="button"><a href="index.php?page=<?= $location['nom_cat'] ?>&id=<?= $location['id_categories']?>">En Savoir Plus </a></button>
         </div>
+    </div>
+    <div class="col-12 locationBetween">
+
     </div>
     <?php } ?>
     

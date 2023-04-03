@@ -1,18 +1,23 @@
 
-  #contFooter {
-    background-image: url('../Image/footerbanner.webp');
-    background-size: cover;
-  }
 .fontChange {
     font-family: 'Quintessential', cursive;
+    color: wheat;
 }
 .socialsFooter:hover {
     opacity: 0.5;
 }
-.list-unstyled li a {
-    text-decoration: none;
+ul li {
+    list-style: none;
 }
-.list-unstyled li a:hover {
+ul li a {
+    text-decoration: none;
+    color: wheat;
+ 
+}
+ul li p {
+    color: wheat;
+}
+ul li a:hover {
     opacity: 0.5;
 }
 #logoFooter {
@@ -28,4 +33,10 @@ hr {
 }
 #copyrightsFooter {
     background-color: rgba(0, 0, 0, 0.2);
+    color: wheat;
+}
+#copyrightsFooter a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }

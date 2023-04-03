@@ -3,7 +3,7 @@
       <div class="container-fluid p-0">
       <ul class="navbar-nav ">
         <li class="nav-item">
-              <a class="nav-link mx-2" aria-current="page" href=""><img src="../src/assets/Image/logoIC.webp" alt="" width="300"></i></a>
+              <a class="nav-link mx-2" aria-current="page" href="index.php?page=Home"><img src="../src/assets/Image/logoIC.webp" alt="" width="300"></i></a>
             </li>
         </ul>
       

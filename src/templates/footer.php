@@ -31,54 +31,54 @@
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter d-flex flex-column justify-content-center align-items-center">
           <h2 class="text-uppercase mb-4 fontChange">Liens utiles</h2>
           <hr>
-          <ul class="list-unstyled">
+          <ul>
             <li class="mb-2">
-              <a href="index.php?page=Locations" class="text-white">- Locations -</a>
+              <a href="index.php?page=Locations" >- Locations -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Restaurant" class="text-white">- Restaurant -</a>
+              <a href="index.php?page=Restaurant" >- Restaurant -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Activite" class="text-white">- Activités -</a>
+              <a href="index.php?page=Activite" >- Activités -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Team" class="text-white">- Notre Equipe -</a>
+              <a href="index.php?page=Team" >- Notre Equipe -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Contact" class="text-white">- Contact -</a>
+              <a href="index.php?page=Contact" >- Contact -</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter d-flex flex-column justify-content-center align-items-center">
           <h2 class="text-uppercase mb-4 fontChange">Plus</h2>
           <hr>
-          <ul class="list-unstyled">
+          <ul>
             <li class="mb-2">
-              <a href="index.php?page=Propos" class="text-white">- A propos de nous -</a>
+              <a href="index.php?page=Propos" >- A propos de nous -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Iceland" class="text-white">- L'Islande en détail -</a>
+              <a href="index.php?page=Iceland" >- L'Islande en détail -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Avis" class="text-white">- Vos Avis -</a>
+              <a href="index.php?page=Avis" >- Vos Avis -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Carrier" class="text-white">- Carrière -</a>
+              <a href="index.php?page=Carrier" >- Carrière -</a>
             </li>
             <li class="mb-2">
-              <a href="index.php?page=Conditions" class="text-white">- Condition Générales - </a>
+              <a href="index.php?page=Conditions" >- Condition Générales - </a>
             </li>
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 listeFooter d-flex flex-column justify-content-center align-items-center">
           <h2 class="text-uppercase mb-4 fontChange">Contact</h2>
           <hr>
-          <ul class="list-unstyled">
+          <ul>
             <li>
               <p><i class="fas fa-map-marker-alt pe-2"></i> Hverafold 111, Reykjavík</p>
             </li>
@@ -97,7 +97,7 @@
 
     <div class="text-center p-3" id="copyrightsFooter">
       © 2022-2023 Copyright:
-      <a class="text-white" href="">Íslenskt sumarhús</a>
+      <a  href="">Íslenskt sumarhús</a>
     </div>
     
   </footer>

@@ -1,31 +1,26 @@
 <?php $title = $_GET['page'];
 ob_start();?>
-<div class="container-fluid p-0 mt-5">
-    <div class="row mb-5 p-0">
-        <div class="col-7 p-0 carouselLoc">
-        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <?php foreach($carousels as $carousel){ ?>
-                <div class="carousel-item active">
-                <img src= "<?= $carousel['chemin_images'] ?>" alt="<?= $_GET['page'] ?> Image Carousel" class="d-block w-100">
-                </div>
-                <?php } ?>
+<div class="container-fluid p-0">
+    <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center intro">
+                
+                <h1 class="m-5"><strong><?= $_GET['page'] ?></strong><br></h1>
+                
             </div>
-            </div>
-        </div>
-        <div class="col-5 d-flex flex-column align-items-center justify-content-center p-5 textLoc">
+    </div>
+    <div class="row locationAbout d-flex justify-content-end">
+        <div class="col-4 textCol">
             <?php foreach($intros as $intro){ ?>
-            <h1 class="mb-5 text-center"><?= $intro['nom_cat'] ?></h1>
-            <p><?= $intro['description_cat'] ?></p>
+                <p class="introText"><?= $intro['description_cat'] ?></p>
             <?php } ?>
         </div>
     </div>
     <div class="row p-0">
-        <div class="col-12 p-0 dispoLoc" style="background-image: url('../src/assets/Image/icelandBanner.webp');">
+        <div class="col-12 p-0 dispoLoc" >
             <h2>Nos <?= $_GET['page'] ?> disponibles.</h2>
         </div>
     </div>
-    <div class="row m-5 p-0">
+    <div class="row m-5 p-0 logement">
         <?php foreach($logements as $logement){ ?>
         <div class="col" >
             <div class="profile-card-4 text-center" ><img src="<?= $logement['chemin_images'] ?>" alt="Logements" class="img img-responsive">

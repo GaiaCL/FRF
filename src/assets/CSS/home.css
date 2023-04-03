@@ -1,11 +1,7 @@
-.headerHome {
-    background-image: url('../Image/homeHeader.webp');
-    background-size: cover;
-    height: 62em;
-    font-family: 'Quintessential', cursive;
-}
+
 .blockOne {
-    background-image: url('../Image/bgBlockOne.webp');
+    background-image: url('../Image/bigBg.webp');
+    height:  100em;
 }
 .titleIntro h1 {
     
@@ -34,5 +30,89 @@
     color: wheat;
     font-size: 1.2em;
     font-family: 'Quintessential', cursive;
-    background: #0d0d0d;
+    position: relative;
+    background: rgba(31, 31, 31, 0.8);
+    border-radius: 0.5em;
+}
+.imgWelcome {
+    position: absolute;
+    width: 12.6em;
+    top:115%;
+    left:8.3%;
+    border: 2px solid grey;
+    border-radius: 0.5em;
+}
+#imgWelcomeTwo {
+    top:125%;
+    left:20%;
+}
+.blockTwo {
+    background-image: url('../Image/homeBannerBorealis.webp');
+    height:40em;
+}
+.blockTwo p {
+    color: wheat;
+    font-size: 1.2em;
+    font-family: 'Quintessential', cursive;
+    padding: 2em;
+    background: rgba(31, 31, 31, 0.8);
+    border-radius: 0.5em;
+}
+.blockThree {
+    height: 25em;
+    background-image: url('../Image/homeBannerBorealis2.webp');
+}
+.blockThree h2 {
+   color: wheat;
+   font-family: 'Quintessential', cursive;
+   font-size: 3em;
+}
+.blockThree label {
+border: 1px solid grey;
+position: relative;
+color: grey;
+font-family: 'Quintessential', cursive;
+}
+.blockThree label span {
+    position: absolute;
+    bottom: 78%;
+    right: 93%;
+    background: black;
+}
+.blockThree label #username {
+    right: 89%;
+} 
+.blockThree form input {
+    width: 40em;
+    padding: 0.5em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: wheat;
+}
+::placeholder {
+    color: rgb(47, 47, 47);
+    font-style: italic;
+}
+
+.button-83 {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 100%;
+  font-weight: 700;
+  padding: 0.4em;
+  text-align: center;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.button-83:hover {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
 }
