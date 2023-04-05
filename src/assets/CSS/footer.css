@@ -1,4 +1,6 @@
-
+#contFooter {
+    border-top: 1px solid wheat;
+}
 .fontChange {
     font-family: 'Quintessential', cursive;
     color: wheat;

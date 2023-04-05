@@ -8,16 +8,16 @@ function locations(){
 
     $logements = selectLogements();
     if($_GET['page'] == "Torfbaeir"){
-    $carousels = carouselLogementsTorf();
     $imgs = selectImgTorf();
+    $bgs = selectBgTorf();
     }
     else if($_GET['page'] == "Loges Panoramiques"){
-    $carousels = carouselLogementsLoge();
     $imgs = selectImgLoge();
+    $bgs = selectBgLoge();
     }
     else if($_GET['page'] == "Chalets"){
-    $carousels = carouselLogementsChal();
     $imgs = selectImgChal();
+    $bgs = selectBgChalet();
     }
     $intros = selectTitle();
     

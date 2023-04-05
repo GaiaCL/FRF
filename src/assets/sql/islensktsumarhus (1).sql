@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 03 avr. 2023 à 14:23
+-- Généré le : mer. 05 avr. 2023 à 14:28
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `images` (
   PRIMARY KEY (`id`),
   KEY `id_categories` (`id_categories`),
   KEY `id_logements` (`id_logements`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Déchargement des données de la table `images`
@@ -101,7 +101,10 @@ INSERT INTO `images` (`id`, `nom_images`, `description_images`, `chemin_images`,
 (31, 'Chalet carousel 1', NULL, '../src/assets/Image/chalet.webp', 3, NULL),
 (32, 'Chalet carousel 2', NULL, '../src/assets/Image/chalet2.webp', 3, NULL),
 (33, 'Chalet carousel 3', NULL, '../src/assets/Image/chalet3.webp', 3, NULL),
-(34, 'Chalet carousel 4', NULL, '../src/assets/Image/chalet4.webp', 3, NULL);
+(34, 'Chalet carousel 4', NULL, '../src/assets/Image/chalet4.webp', 3, NULL),
+(35, 'Background Location Torfbaeir', NULL, '../src/assets/Image/bgTurfhouse.webp', 1, NULL),
+(36, 'Background Location Loge', NULL, '../src/assets/Image/bgLoge.webp', 2, NULL),
+(37, 'Background Location Chalet', NULL, '../src/assets/Image/bgChalet.webp', 3, NULL);
 
 -- --------------------------------------------------------
 

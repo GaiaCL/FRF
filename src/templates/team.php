@@ -10,7 +10,7 @@
                 </h1>
             </div>
         </div>
-        <div class="row mt-5 d-flex flex-wrap align-items-center justify-content-evenly">
+        <div class="row mt-5 d-flex flex-wrap align-items-center justify-content-evenly" style="background-image:url('../src/assets/Image/betweenlocation.webp');">
             <div class="col-6 d-flex flex-column justify-content-center align-items-center teamPortrait">
                 <img src="../src/assets/Image/team1.webp" alt="Membre d'équipe 1">
                 <h2>MARGET </h2>
@@ -52,7 +52,7 @@
                 placerat ac.</p>
             </div>
         </div>
-        <div class="row mt-5 mb-5 d-flex flex-wrap align-items-center justify-content-evenly">
+        <div class="row mt-5 mb-5 d-flex flex-wrap align-items-center justify-content-evenly" style="background-image:url('../src/assets/Image/betweenlocation.webp')">>
             <div class="col-2 d-flex flex-column justify-content-center align-items-center teamEmployees">
                 <img src="../src/assets/Image/employee1.webp" alt="Membre d'équipe 5">
                 <h2>HELVIR</h2>

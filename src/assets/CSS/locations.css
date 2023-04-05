@@ -1,15 +1,24 @@
-.locationAbout {
-    background-image: url('../Image/bgLocation.webp');
-    height: 30em;
+
+.locInt {
+    font-family: 'Quintessential', cursive;
+    min-height: 61em;
+    box-shadow: 0px 3px 15px 2px rgba(0,0,0,0.81);
 }
-.intro h1 {
+.introLoc h1 {
     font-size: 8em;
-}
-.textCol {
-    margin-right: 20em;
-}
-.introText {
     color: wheat;
+    font-weight: bold;
+    text-shadow: 5px 0px 6px rgba(0, 0, 0, 0.9);
+}
+.iconDown {
+    color: rgba(245, 222, 179,0.8);
+}
+
+.introText {
+    width:30em;
+    margin-left: 10em;
+    margin-top: 7em;
+    color: rgb(245, 222, 179);
     font-family: 'Quintessential', cursive;
     background: rgba(59, 58, 58,0.5);
     padding: 2em;
@@ -18,14 +27,15 @@
 }
 .logement {
     background-image: url('../Image/betweenLocation.webp');
+    background-size: contain;
 }
 .dispoLoc {
     height: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 3px 16px 7px rgba(0,0,0,0.81);
-    background: rgba(243, 220, 177,0.1);
+    border: double wheat 10px;
+    background-image: url('../Image/betweenLocation.webp');
 }
 .dispoLoc h2 {
     font-family: 'Quintessential', cursive;
@@ -40,16 +50,14 @@
     overflow: hidden;
     position: relative;
     margin: 10px auto;
-}
-
-.profile-card-4 img {
-    transition: all 0.25s linear;
+    border: 2px solid wheat;
+    
 }
 
 .profile-card-4 .profile-content {
     position: relative;
     padding: 15px;
-    background-color: rgba(70, 75, 80,0.5);
+   background: black;
 }
 
 .profile-card-4 .profile-name {
@@ -58,10 +66,22 @@
     left: 0px;
     right: 0px;
     top: -70px;
-    color: #FFF;
+    color: wheat;
     font-size: 17px;
-}
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
+}
+.profile-card-4:hover {
+    transform: scale(1.05);
+    transform: translateY(-1em);
+}
+.profile-card-4:hover img{
+    -webkit-filter: brightness(150%);
+    
+}
+.profile-card-4:hover .profile-name{
+display: none;
+}
 .profile-card-4 .profile-name p {
     font-weight: 600;
     font-size: 13px;
@@ -70,7 +90,7 @@
 
 .profile-card-4 .profile-description {
     font-family: 'Quintessential', cursive;
-    color: #d4d4d4;
+    color: #000000;
     font-size: 1em;
     padding: 10px;
 }
@@ -79,19 +99,25 @@
     padding: 15px 0px;
 }
 
-.profile-card-4 .profile-overview p {
+.profile-overview p {
     font-family: 'Quintessential', cursive;
     font-size: 1.5em;
-    font-weight: 600;
-    color: #191919;
+    font-weight: bold;
+   color: wheat;
 }
 
 .profile-card-4 .profile-overview h4 {
     font-family: 'Quintessential', cursive;
-    color: #f0f0f0;
+    color: rgb(179, 245, 232);
     font-weight: bold;
+    opacity: 0.5;
 }
-
+.profile-card-4:hover .profile-overview h4 {
+    opacity: 1;
+}
+.profile-card-4 .profile-overview h4 strong {
+    color: wheat;
+}
 .profile-card-4 .profile-content::before {
     content: "";
     position: absolute;
@@ -99,38 +125,44 @@
     top: -10px;
     left: 0px;
     right: 0px;
-    background-color: #1f2224;
+    background-color: wheat;
     z-index: 0;
     transform: skewY(3deg);
 }
 
-.profile-card-4:hover img {
-    transform: rotate(5deg) scale(1.1, 1.1);
-    filter: brightness(110%);
-}
-.bttnLoc {
+.button-83 {
+    width: 10em; 
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, wheat, #f8eedb);
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    column-gap: 1rem;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: 700;
+    padding: 0.6em;
+    box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
     text-decoration: none;
-    color: #a4a9ac;
-    width:10em;
-    background: #1f2224;
-    border-radius: 0.5em;
-    padding: 0.3em;
-}
-.bttnLoc:hover {
-    opacity: 0.5;
-}
+    color: black;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+  }
+  .button-83:hover {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
+  }
 .bannerBtm {
     height: 30em;
     font-family: 'Quintessential', cursive;
-    border-top: solid #1f2224 5px;
 }
 .bannerBtm h2 {
-    color: #dde2e5;
+    color: wheat;
     font-size: 5em;
+    width: 8em;
 }
 .bannerBtm p {
     width: 50em;
-    color: #dde2e5;
-    text-align: center;
+    color: wheat;
     font-size: 1.2em;
 }

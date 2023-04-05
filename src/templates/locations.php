@@ -1,19 +1,18 @@
 <?php $title = $_GET['page'];
 ob_start();?>
 <div class="container-fluid p-0">
-    <div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center intro">
+    <div class="row locInt d-flex align-items-end" 
+        <?php foreach($bgs as $bg){ ?>
+                style="background-image:url(<?= $bg['chemin_images'] ?>)"
+        <?php } ?>
+        >
+            <div class="col-12 d-flex justify-content-center align-items-center introLoc">
                 
-                <h1 class="m-5"><strong><?= $_GET['page'] ?></strong><br></h1>
-                
+                <h1 ><?= $_GET['page'] ?></h1>
             </div>
-    </div>
-    <div class="row locationAbout d-flex justify-content-end">
-        <div class="col-4 textCol">
-            <?php foreach($intros as $intro){ ?>
-                <p class="introText"><?= $intro['description_cat'] ?></p>
-            <?php } ?>
-        </div>
+            <div class="col-12 d-flex justify-content-center align-items-end" style="height:10em;">
+            <i class="fa-solid fa-chevron-down fa-bounce fa-3x iconDown"></i>
+             </div>
     </div>
     <div class="row p-0">
         <div class="col-12 p-0 dispoLoc" >
@@ -33,9 +32,9 @@ ob_start();?>
                         <div class="col-xs-4">
                             <div class="profile-overview">
                                 <p>Tarifs</p>
-                                <h4><?= $logement['prix_jour'] ?>€/Jour<br/> <?= $logement['prix_semaine'] ?>€/Semaine</h4></div>
+                                <h4><?= $logement['prix_jour'] ?>€<strong>/Jour</strong><br/> <?= $logement['prix_semaine'] ?>€<strong>/Semaine</strong></h4></div>
                             </div>
-                            <a href="index.php?page= <?= $logement['nom_logements'] ?>" class="bttnLoc">Réserver</a>
+                            <a href="index.php?page= <?= $logement['nom_logements'] ?>" class="button-83">Réserver</a>
                         </div>
                     </div>
                 </div>
@@ -45,9 +44,9 @@ ob_start();?>
     
     <div class="row p-0" >
         <?php foreach($imgs as $img){ ?>
-        <div class="col-12 d-flex flex-column justify-content-center align-items-center bannerBtm" style="background-image:url(<?= $img['chemin_images'] ?>)">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-start ps-5 bannerBtm" style="background-image:url(<?= $img['chemin_images'] ?>)">
             <h2><?= $img['nom_images'] ?></h2>
-            <p class="p-5"><?= $img['description_images'] ?></p>
+            <p class="pt-5"><?= $img['description_images'] ?></p>
         </div>
         <?php } ?>
     </div>

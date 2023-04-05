@@ -11,7 +11,7 @@
     <div class="row bannerRestaurant">
         
     </div>
-    <div class="row pt-5 boxShadow foodMenu">
+    <div class="row pt-5 boxShadow foodMenu" style="background-image:url('../src/assets/Image/betweenLocation.webp');">
         <div class="col-5 d-flex justify-content-end align-items-center"><img class="foodImg" src="../src/assets/Image/food1.webp" alt="Food Dish"></div>
         <div class="col-2 d-flex justify-content-center align-items-center whiteLeaf"><img src="../src/assets/Image/whiteleaf.webp" alt="Food Dish"></div>
         <div class="col-5 d-flex justify-content-start align-items-center"><img  class="foodImg" src="../src/assets/Image/food2.webp" alt="Food Dish"></div>

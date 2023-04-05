@@ -7,32 +7,30 @@ function selectLogements(){
     return $logements;
 }
 
-function carouselLogementsTorf(){
-    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id >= 6 AND id <= 14");
-    $stmt->execute();
-    $carousels = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $carousels;
-}
-
-function carouselLogementsLoge(){
-    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id >= 21 AND id <= 25");
-    $stmt->execute();
-    $carousels = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $carousels;
-}
-
-function carouselLogementsChal(){
-    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id >= 31 AND id <= 34");
-    $stmt->execute();
-    $carousels = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $carousels;
-}
-
 function selectTitle() {
     $stmt = dbConnect()->prepare("SELECT*FROM categories WHERE id = ".$_GET['id']."");
     $stmt->execute();
     $intros = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $intros;
+}
+
+function selectBgTorf(){
+    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id = 35");
+    $stmt->execute();
+    $bgs = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $bgs;
+}
+function selectBgLoge(){
+    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id = 36");
+    $stmt->execute();
+    $bgs = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $bgs;
+}
+function selectBgChalet(){
+    $stmt = dbConnect()->prepare("SELECT*FROM images WHERE id_categories = ".$_GET['id']." AND id = 37");
+    $stmt->execute();
+    $bgs = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $bgs;
 }
 
 function selectImgTorf(){
